@@ -1,13 +1,12 @@
 import Menu from "./Menu";
+import Link from "./Link";
 
 export default function PositionMenu() {
     return (
         <div class="position-menu">
-          <a href="..."><ion-icon class="logo-icon" name="logo-instagram"></ion-icon></a>
+          <Link type="icon" class="logo-icon" name="logo-instagram" />
           <Menu />
-          <a href="...">
-            <ion-icon class="icone-esquerda desktop" name="paper-plane-outline"></ion-icon>
-          </a>
+          <Link type="icon" class="icone-esquerda desktop" name="paper-plane-outline" />
         </div>
     );
 }

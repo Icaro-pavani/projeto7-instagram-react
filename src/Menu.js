@@ -1,9 +1,10 @@
 import Links from './Links';
+import Link from "./Link";
 
 export default function Menu() {
     return (
         <div class="menu">
-          <a href="..."><img class="logo" src="imagens/logo.svg" alt="" /></a>
+          <Link type="img" class="logo" name="logo" />
           <input
             type="text"
             class="pesquisa mobile"
