@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import Header from './Header';
 
-import Stories from "./Stories";
+import FeedBar from "./FeedBar";
 
 function App() {
     return (
@@ -9,9 +9,7 @@ function App() {
             <Header />
             <main>
                 <div class="feeds">
-                    <ul class="feed-bar">
-                        <Stories />
-                    </ul>
+                    <FeedBar />
                 </div>
             </main>
         </div>
