@@ -1,19 +1,14 @@
 import ReactDOM from 'react-dom';
 import Header from './Header';
 
-import FeedBar from "./FeedBar";
-import Post from "./Post";
-import Posts from "./Posts";
+import Feeds from "./Feeds";
 
 function App() {
     return (
         <div>
             <Header />
             <main>
-                <div class="feeds">
-                    <FeedBar />
-                    <Posts />
-                </div>
+                <Feeds />
             </main>
         </div>
     );
