@@ -9,7 +9,7 @@ export default function ConteudoPost(props) {
         );
     } else if (props.type === "video") {
         return (
-            <video autoplay muted poster loop>
+            <video autoPlay muted poster loop>
               <source src={`videos/${props.name}.mp4`} type="video/mp4"/>
               <source src={`videos/${props.name}.ogv`} type="video/ogv"/>
               Impossível Reproduzir
