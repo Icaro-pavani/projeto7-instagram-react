@@ -5,7 +5,8 @@ import FeedBar from "./FeedBar";
 
 import Source from "./Source";
 
-import Link from "./Link";
+import PostBottom from "./PostBottom";
+import Curtidas from "./Curtidas";
 
 function App() {
     return (
@@ -24,19 +25,10 @@ function App() {
                               class="foto-post"
                             />
 
-                            <div class="post-bottom">
-                              <div class="icon-left">
-                                <ion-icon class="post-icon" name="heart-outline"></ion-icon>
-                                <ion-icon class="post-icon" name="chatbubble-outline"></ion-icon>
-                                <ion-icon class="post-icon" name="paper-plane-outline"></ion-icon>
-                              </div>
-                              <ion-icon class="post-icon" name="bookmark-outline"></ion-icon>
-                            </div>
+                            <PostBottom />
 
-                            <div class="curtidas">
-                              <img src="imagens/respondeai.jpg" alt="respondeai"/>
-                              <p>Curtido por <strong>respodeai</strong> e <strong>outras 101.523 pessoas</strong></p>
-                            </div>
+                            <Curtidas name="respondeai" numCurtidas="101.523" />
+
                             <div class="comentarios">
                               <div class="foto-comentario">
                                 <img src="imagens/meowed.jpg" alt="meowed"/>
