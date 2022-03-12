@@ -260,7 +260,7 @@ main {
     justify-content: center;
     border-radius: 50%;
     background-size: 66px 66px;
-    background-image: url('../../imagens/stories_background.jpg');
+    background-image: url('../imagens/stories_background.jpg');
 }
 
 /* tamanho de cada story */
