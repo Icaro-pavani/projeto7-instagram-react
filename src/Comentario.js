@@ -1,3 +1,5 @@
+import Link from "./Link";
+
 export default function Comentario(props) {
     return (
         <div class="comentario">
@@ -5,7 +7,7 @@ export default function Comentario(props) {
             <img class="img-comentario" src={`imagens/${props.name}.jpg`} alt={props.name}/>
             <p><strong>{props.name}</strong>  {props.msg}</p>
           </div>
-          <ion-icon class="bottom-icon" name="heart-outline"></ion-icon>
+          <Link type="icon" class="bottom-icon" name="heart-outline" />
         </div>
     );
 }

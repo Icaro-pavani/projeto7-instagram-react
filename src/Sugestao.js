@@ -16,7 +16,7 @@ export default function Sugestao(props) {
                   <p class="perfil-name">{props.seguir === "sim" ? "Segue você" : "Novo no Instagram"}</p>
                 </div>
             </div>
-            <h3>Seguir</h3>
+            <a href="..."><h3>Seguir</h3></a>
         </li>
     )
 }

@@ -2,9 +2,9 @@ import Stories from "./Stories";
 
 export default function FeedBar() {
     return (
-        <ul class="feed-bar">
+        <ul className="feed-bar">
             <Stories />
-            <img src="imagens/Vector.svg" alt="" class="seta" />
+            <a href="..."><img src="imagens/Vector.svg" alt="" class="seta" /></a>
         </ul>
     )
 }

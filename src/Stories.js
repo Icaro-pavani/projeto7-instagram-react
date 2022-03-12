@@ -9,7 +9,7 @@ export default function Stories() {
     const stories = storiesNomes.map(nome => <Story name={nome} />);
 
     return (
-        <div class="stories">
+        <div className="stories">
             {stories}
         </div>
     );

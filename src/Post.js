@@ -14,7 +14,7 @@ export default function Post(props) {
             <PostBottom />
             <Curtidas name={props.sourcePrimeiraCurtida} numCurtidas={props.numCurtidas} />
             <Comentarios name={props.source} msg={props.sourceMensagem} />
-            <p class="quantidade">Ver todos os {props.qtdComentarios} comentários</p>
+            <a href="..."><p class="quantidade">Ver todos os {props.qtdComentarios} comentários</p></a>
             <Comentario name={props.sourcePrimeiroComentario} msg={props.mensagemPrimeiroComentario} />
             <p class="hora">{props.tempo}</p>
             <AddComentario />
