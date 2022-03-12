@@ -12,10 +12,10 @@ export default function Post(props) {
             <Source name={props.source} />
             <ConteudoPost type={props.postType} name={props.nomeConteudo} />
             <PostBottom />
-            <Curtidas name={props.sourcePrimeiraCurtida} numCurtidas={props.numCurtidas} />
+            <Curtidas name={props.sourcePrimeiraCurtida} nomeExibido={props.nomeExibidoPrimeiraCurtida} numCurtidas={props.numCurtidas} />
             <Comentarios name={props.source} msg={props.sourceMensagem} />
             <a href="..."><p class="quantidade">Ver todos os {props.qtdComentarios} comentários</p></a>
-            <Comentario name={props.sourcePrimeiroComentario} msg={props.mensagemPrimeiroComentario} />
+            <Comentario nameImagem={props.nomeImagemPrimeiroComentario} name={props.nomeSourcePrimeiroComentario} msg={props.mensagemPrimeiroComentario} />
             <p class="hora">{props.tempo}</p>
             <AddComentario />
         </div>
